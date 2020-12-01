@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9455e8825e200c7df104438eabf42854",
+    "content-hash": "bc010c61901ab48ccfc5072c86ed4a59",
     "packages": [
         {
             "name": "async-aws/core",
@@ -205,6 +205,57 @@
                 }
             ],
             "time": "2020-11-29T18:18:21+00:00"
+        },
+        {
+            "name": "bref/extra-php-extensions",
+            "version": "0.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brefphp/extra-php-extensions.git",
+                "reference": "8f6a7582bc3a7ab487032b5cf8bc06b25c331360"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brefphp/extra-php-extensions/zipball/8f6a7582bc3a7ab487032b5cf8bc06b25c331360",
+                "reference": "8f6a7582bc3a7ab487032b5cf8bc06b25c331360",
+                "shasum": ""
+            },
+            "conflict": {
+                "bref/bref": "<0.100.0"
+            },
+            "require-dev": {
+                "async-aws/core": "^1.7@dev",
+                "async-aws/lambda": "^1.1",
+                "bref/logger": "^1.0",
+                "mnapoli/silly": "^1.7",
+                "mnapoli/silly-php-di": "^1.2",
+                "symfony/finder": "^5.0",
+                "symfony/http-client": "^5.2@rc",
+                "symfony/process": "^5.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com"
+                }
+            ],
+            "description": "Extra PHP extensions for your lambda application.",
+            "support": {
+                "issues": "https://github.com/brefphp/extra-php-extensions/issues",
+                "source": "https://github.com/brefphp/extra-php-extensions/tree/0.7.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-11-30T14:59:57+00:00"
         },
         {
             "name": "hollodotme/fast-cgi-client",
